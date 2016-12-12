@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  display:flex;
+  min-height:100vh;
+  flex-direction: column;
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  justify-content: space-between;
+    background-color: #DFE3EE;
+}
+
+header {
+  height: 80px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: linear-gradient(0deg, #3B5998, #4A66A0);
+}
+div {
+  display: flex;
+}
+
+.headerGauche {
+  justify-content: center;
+  align-self: flex-end;
+  width: 50%;
+}
+
+.headerDroite {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.adresseMail {
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mail {
+
+}
+.inputConnexion {
+  line-height: 1.5em;
+
+}
+
+.motDePasse {
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.logo {
+  font-size: 3em;
+  color: white;
+  text-decoration: none;
+}
+
+.buttonConnexion {
+
+  background-color: Steelblue;
+  color: white;
+  align-self: center;
+}
+.buttonInscription {
+  font-size: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formName {
+  justify-content: flex-start;
+}
+.formDate {
+  justify-content: flex-start;
+}
+.formGenre {
+  justify-content: flex-start;
+}
+
+aside {
+  width: 45%;
+  line-height: 1.5em;
+}
+
+.forget {
+  color: #9CB4D8;
+}
+
+article {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #0E385F;
+}
+
+footer {
+  font-size: 0.7em;
+  height: 120px;
+  line-height: 1.5em;
+  margin-left: 100px;
+}
+.footerTop {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #DDDFE2;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.footerBottom {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.groupeDeLiens {
+  margin: 0px 0px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.lienFooter {
+  margin: 0px 10px 0px 10px;
+  color: #48679F;
+}

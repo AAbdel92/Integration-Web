@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Mon Facebook</title>
+    <link rel="stylesheet" href="Mon_projet_stylesheet.css">
+
+  </head>
+  <body>
+
+    <header>
+
+      <a href="https://fr-fr.facebook.com/">facebook</a>
+
+      <div class="adresseMail">
+        <h5>Adresse e-mail ou mobile</h5>
+
+      </div>
+
+    </header>
+
+    <main>
+
+      <article>
+
+      </article>
+
+      <aside>
+
+      </aside>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+  </body>
+</html>
