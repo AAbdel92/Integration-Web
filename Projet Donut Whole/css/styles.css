@@ -14,7 +14,6 @@ body {
    text-rendering: optimizelegibility;
    font-family: "Open Sans";
    color: #4b2707;
-   background-image: url(../images/bg-tile.gif);
 }
 
 .container {
@@ -100,7 +99,7 @@ header nav {
   display: flex;
   justify-content: center;
   height: 141px;
-  background-image: url(../images/bg-tile.gif);
+  background-color: white;
 
 }
 
@@ -117,7 +116,7 @@ header nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*height: 141px;*/
+  height: 141px;
 
   margin: 0 20px;
   list-style: none;
@@ -149,7 +148,6 @@ header nav ul li#logo a {
   width: 259px;
   background-image: url(../images/logo.png);
   background-position: center;
-  color: transparent;
 
 
 }
@@ -169,13 +167,11 @@ header nav ul li#logo a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-image: url(../images/bg-tile-yellow.gif);
-  /*background-color: #e8c04f;*/
+  background-color: #e8c04f;
 
 }
 
 #hero .container {
-
 
 }
 
@@ -187,7 +183,6 @@ header nav ul li#logo a:hover {
   background-image: url(../images/fresh-whole-ingredients.png);
   height: 190px;
   background-repeat: no-repeat;
-  color: transparent;
 
 }
 
@@ -245,7 +240,7 @@ header nav ul li#logo a:hover {
   padding-left: 50px;
   background-image: url(../images/icon-news.png);
   background-repeat: no-repeat;
-
+  background-position: left;
 
 
 }
@@ -254,7 +249,7 @@ header nav ul li#logo a:hover {
   padding-left: 50px;
   background-image: url(../images/icon-calendar.png);
   background-repeat: no-repeat;
-
+  background-position: left;
 
 }
 
@@ -275,11 +270,11 @@ header nav ul li#logo a:hover {
 /* Footer */
 
 footer.main {
-  color: #f2f3ee;
+  color: white;
   height: 141px;
   width: 100%;
-  background-image: url(../images/bg-tile-brown.gif);
 
+  background-color: #4b2707;
 
 
 }
@@ -289,10 +284,11 @@ footer.main a:hover {
 }
 
 #uncopyright, #credits {
-
+  position: absolute;
   text-align: center;
   padding-left: 40px;*/
   width: 45%;
+  bottom: -1120px;
 
 
 
@@ -301,8 +297,7 @@ footer.main a:hover {
 
 #uncopyright {
   height: 41px;
-  float: left;
-
+  left: 200px;
   background-image: url(../images/icon-recycle.png);
   background-repeat: no-repeat;
   background-position: left;
@@ -312,8 +307,7 @@ footer.main a:hover {
 
 #credits {
   height: 37px;
-  float: right;
-
+  right: 200px;
   background-image: url(../images/icon-apple.png);
   background-repeat: no-repeat;
   background-position: left;

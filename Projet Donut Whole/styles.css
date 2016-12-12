@@ -1,0 +1,171 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  background-color: #f2f3ee;
+  background: url(images/bg-tile.gif);
+  color: #4b2707;
+}
+
+header {
+  padding-top: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+div.lienMenu {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+a.lienMenu {
+  font-weight: bolder;
+  text-decoration: none;
+    color: #d17f38;
+}
+
+a.lienMenu:hover {
+  padding-top: 20px;
+  color: #4b2707;
+  background: url(images/tiny-donut.png) no-repeat top;
+}
+
+.logoMenu {
+  height: 141px;
+  background: url(images/logo.png) no-repeat center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoMenu:hover {
+  background: url(images/logo-hover.png) no-repeat center;
+}
+
+.mainImage {
+
+  background: url(images/bg-tile-yellow.gif);
+}
+
+.poster {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 471px;
+  background: url(images/donut-shoppe.png) no-repeat center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Love Ya Like A Sister';
+  color: #d17f38;
+  font-weight: bold;
+}
+h1 span {
+  color: #4b2707;
+}
+
+div.yellow {
+  height: 18px;
+  background: url(images/header-divider.png) no-repeat center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.award {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+p a {
+  color: #d17f38;
+  text-decoration: underline;
+}
+p a:hover {
+  color: #4b2707;
+}
+
+.dividerWhite {
+  margin: 20px;
+}
+
+div.white {
+  height: 33px;
+  background: url(images/divider.png) no-repeat center;
+}
+
+h2.news {
+  color: #d17f38;
+  font-family: 'Love Ya Like A Sister';
+    font-weight: bold;
+}
+
+.iconNews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconCalendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+time {
+  color: #d17f38;
+  font-size: 0.8em;
+}
+
+p.footer {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+
+
+p.calendar {
+  margin-top: 10px;
+}
+
+.donutImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 141px;
+  background: url(images/bg-tile-brown.gif);
+}
+
+footer p {
+  color: white;
+}
+
+footer div.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 141px;
+}
+
+.iconeFooter {
+  height: 141px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
